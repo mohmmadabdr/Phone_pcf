@@ -1,4 +1,4 @@
-# 🇯🇴 Country Phone Formatter  
+# Country Phone Formatter  
 ### Power Apps Component Framework (PCF) Control
 
 A **reusable and enterprise-ready Power Apps component** for formatting phone numbers with country codes, **modern UI/UX**.
