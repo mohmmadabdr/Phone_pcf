@@ -70,5 +70,5 @@ Designed for **Model-Driven Apps / Dataverse** with performance, accessibility, 
 #### 1️⃣ Build the Component
 ```bash
 npm install
-npm run build
 pac pcf push
+npm run build
