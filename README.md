@@ -1,55 +1,90 @@
-# 📞 Country Phone Formatter – PCF Control
+# 📞 Country Phone Formatter  
+### Power Apps Component Framework (PCF) Control
 
-A lightweight and professional **Power Apps Component Framework (PCF)** control that formats phone numbers with country support, built for **Model-Driven Apps**.
+A **production-ready PCF control** designed for **Model-Driven Apps**, enabling clean, consistent, and localized phone number formatting with full theme awareness.
 
-This control enhances phone number handling in Dataverse by ensuring consistent formatting, localization support, and modern UI behavior.
-
----
-
-## ✨ Features
-
-- 🎨 **Theme Support**
-  - Light mode
-  - Dark mode
-  - Auto mode (follows system / app theme)
-
-- 📱 **Phone Number Formatting**
-  - Formats phone numbers based on country
-  - Outputs a clean, standardized phone number
-
-- 🧩 **Seamless Dataverse Integration**
-  - Works with bound fields
-  - Fully compatible with Model-Driven Apps
-
-- ⚡ **Lightweight & Fast**
-  - No external libraries
-  - Clean TypeScript implementation
+Built with performance, simplicity, and enterprise standards in mind.
 
 ---
 
-## 🧠 Use Cases
+## 🎥 Preview
 
-- CRM systems requiring standardized phone numbers
-- Multilingual environments (Arabic / English)
-- Organizations using dark/light themes
-- Dataverse forms with international phone data
+> _Visual preview of the control in action_
+
+![Light Mode](./assets/light-mode.png)
+![Dark Mode](./assets/dark-mode.png)
+
+> You can replace the images above with real screenshots or GIFs once available.
+
+---
+
+## ✨ Key Features
+
+### 🎨 Smart Theme Awareness
+- **Light Mode**
+- **Dark Mode**
+- **Auto Mode**  
+  Automatically follows:
+  - Power Apps theme
+  - System preference
+  - Browser settings
+
+---
+
+### 📱 Intelligent Phone Formatting
+- Formats phone numbers based on country logic
+- Outputs **clean & standardized values**
+- Prevents inconsistent user input
+
+---
+
+### 🌐 Automatic Localization
+- Detects system language using Dataverse settings
+- Supports:
+  - **English (LTR)**
+  - **Arabic (RTL)**
+- No configuration required
+
+---
+
+### 🧩 Native Dataverse Integration
+- Works seamlessly with **bound fields**
+- Fully compatible with **Model-Driven Apps**
+- Uses official **PCF lifecycle & APIs**
+
+---
+
+### ⚡ Lightweight & Performant
+- Zero external dependencies
+- Clean, maintainable TypeScript
+- Optimized for fast form rendering
+
+---
+
+## 🧠 Typical Use Cases
+
+- 📇 CRM systems requiring standardized phone numbers
+- 🌍 Multilingual environments (Arabic / English)
+- 🌙 Organizations using Dark / Light themes
+- ☎️ Dataverse forms with international phone data
 
 ---
 
 ## 🛠️ Configuration
 
-### Properties
+### Control Properties
 
 | Property Name | Type | Description |
 |--------------|------|-------------|
-| `phone` | SingleLine.Text | Output formatted phone number |
+| `phone` | SingleLine.Text | Outputs the formatted phone number |
 
-> The control automatically formats and outputs the phone number based on the selected country.
+> The control automatically processes and formats the phone number based on internal country logic.
 
 ---
 
-## 🌐 Localization Details
+## 🌐 Localization Behavior
 
-- Language is detected using:
-  ```ts
-  context.userSettings.languageId
+Language is detected automatically using Dataverse user settings:
+
+```ts
+context.userSettings.languageId
