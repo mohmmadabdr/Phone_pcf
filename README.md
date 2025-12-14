@@ -1,7 +1,7 @@
 # 🇯🇴 Country Phone Formatter  
 ### Power Apps Component Framework (PCF) Control
 
-A **reusable and enterprise-ready Power Apps component** for formatting phone numbers with country codes, featuring **Arabic language support**, **RTL compatibility**, and **modern UI/UX**.
+A **reusable and enterprise-ready Power Apps component** for formatting phone numbers with country codes, **modern UI/UX**.
 
 Designed for **Model-Driven Apps / Dataverse** with performance, accessibility, and localization in mind.
 
@@ -33,9 +33,6 @@ Designed for **Model-Driven Apps / Dataverse** with performance, accessibility, 
   - Middle East focus + global coverage
 - **Auto-formatting**
   - Country-specific phone number formatting
-- **Real-time Validation**
-  - Input filtering
-  - Length validation
 - **Bi-directional Binding**
   - Syncs with Dataverse form fields
 - **State Persistence**
@@ -47,8 +44,6 @@ Designed for **Model-Driven Apps / Dataverse** with performance, accessibility, 
 - **Modern Design**
   - Fluent UI–inspired styling
 - **Theme Awareness**
-  - Light mode
-  - Dark mode
   - Auto (system / app theme)
 - **Responsive Layout**
   - Full-width adaptive design
@@ -76,3 +71,4 @@ Designed for **Model-Driven Apps / Dataverse** with performance, accessibility, 
 ```bash
 npm install
 npm run build
+pac pcf push
