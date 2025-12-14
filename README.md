@@ -1,90 +1,74 @@
-# 📞 Country Phone Formatter  
+# Country Phone Formatter  
 ### Power Apps Component Framework (PCF) Control
 
-A **production-ready PCF control** designed for **Model-Driven Apps**, enabling clean, consistent, and localized phone number formatting with full theme awareness.
+A **reusable and enterprise-ready Power Apps component** for formatting phone numbers with country codes, **modern UI/UX**.
 
-Built with performance, simplicity, and enterprise standards in mind.
-
----
-
-## 🎥 Preview
-
-> _Visual preview of the control in action_
-
-![Light Mode](./assets/light-mode.png)
-![Dark Mode](./assets/dark-mode.png)
-
-> You can replace the images above with real screenshots or GIFs once available.
+Designed for **Model-Driven Apps / Dataverse** with performance, accessibility, and localization in mind.
 
 ---
 
-## ✨ Key Features
+## 🎥 Preview (Inside CRM)
 
-### 🎨 Smart Theme Awareness
-- **Light Mode**
-- **Dark Mode**
-- **Auto Mode**  
-  Automatically follows:
-  - Power Apps theme
-  - System preference
-  - Browser settings
+> Screenshots and animations captured directly from Microsoft Dynamics 365 / Dataverse forms.
 
----
+###  image 1 
+![Image 1](./assets/1.png)
 
-### 📱 Intelligent Phone Formatting
-- Formats phone numbers based on country logic
-- Outputs **clean & standardized values**
-- Prevents inconsistent user input
+###  image 2 
+![Image 2](./assets/2.png)
+
+###  image 3 
+![Image 3](./assets/3.png)
+
+### 🎞️ Live Formatting Demo
+![Demo GIF](./assets/gifvideo.gif)
 
 ---
 
-### 🌐 Automatic Localization
-- Detects system language using Dataverse settings
-- Supports:
-  - **English (LTR)**
-  - **Arabic (RTL)**
-- No configuration required
+## ✨ Features
+
+### 📞 Core Functionality
+- **Country Selection**
+  - Dropdown with **25+ countries**
+  - Middle East focus + global coverage
+- **Auto-formatting**
+  - Country-specific phone number formatting
+- **Bi-directional Binding**
+  - Syncs with Dataverse form fields
+- **State Persistence**
+  - Remembers user selection between sessions
 
 ---
 
-### 🧩 Native Dataverse Integration
-- Works seamlessly with **bound fields**
-- Fully compatible with **Model-Driven Apps**
-- Uses official **PCF lifecycle & APIs**
+### 🎨 UI / UX
+- **Modern Design**
+  - Fluent UI–inspired styling
+- **Theme Awareness**
+  - Auto (system / app theme)
+- **Responsive Layout**
+  - Full-width adaptive design
+- **Accessibility**
+  - Keyboard navigation
+  - Screen reader friendly
+- **Visual Feedback**
+  - Focus states
+  - Hover effects
 
 ---
 
-### ⚡ Lightweight & Performant
-- Zero external dependencies
-- Clean, maintainable TypeScript
-- Optimized for fast form rendering
+## 🚀 Installation
+
+### Prerequisites
+- Power Apps (Model-Driven Apps)
+- Power Apps CLI
+- Node.js 14+ and npm
 
 ---
 
-## 🧠 Typical Use Cases
+### Deployment Steps
 
-- 📇 CRM systems requiring standardized phone numbers
-- 🌍 Multilingual environments (Arabic / English)
-- 🌙 Organizations using Dark / Light themes
-- ☎️ Dataverse forms with international phone data
-
----
-
-## 🛠️ Configuration
-
-### Control Properties
-
-| Property Name | Type | Description |
-|--------------|------|-------------|
-| `phone` | SingleLine.Text | Outputs the formatted phone number |
-
-> The control automatically processes and formats the phone number based on internal country logic.
-
----
-
-## 🌐 Localization Behavior
-
-Language is detected automatically using Dataverse user settings:
-
-```ts
-context.userSettings.languageId
+#### 1️⃣ Build the Component
+```bash
+npm install
+npm run build
+pac pcf push
