@@ -11,11 +11,14 @@ Designed for **Model-Driven Apps / Dataverse** with performance, accessibility, 
 
 > Screenshots and animations captured directly from Microsoft Dynamics 365 / Dataverse forms.
 
-### 🔆 Light Mode
-![Light Mode](./assets/crm-light.png)
+###  image 1 
+![Image 1](./assets/1.png)
 
-### 🌙 Dark Mode
-![Dark Mode](./assets/crm-dark.png)
+###  image 2 
+![Image 2](./assets/2.png)
+
+###  image 3 
+![Image 3](./assets/3.png)
 
 ### 🎞️ Live Formatting Demo
 ![Demo GIF](./assets/gifvideo.gif)
