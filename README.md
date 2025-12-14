@@ -43,20 +43,6 @@ Designed for **Model-Driven Apps / Dataverse** with performance, accessibility, 
 
 ---
 
-### 🌍 Regional Support
-
-#### Arabic Countries
-Jordan, Saudi Arabia, UAE, Egypt, Qatar, Lebanon, Syria, Iraq, Kuwait, Bahrain, Oman, Yemen, Palestine
-
-#### Global Coverage
-USA, Canada, UK, France, Germany, China, India, Japan, and more
-
-- ✅ Arabic UI labels
-- ✅ RTL layout support
-- ✅ Country names localized where applicable
-
----
-
 ### 🎨 UI / UX
 - **Modern Design**
   - Fluent UI–inspired styling
