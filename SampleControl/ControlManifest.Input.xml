@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control 
+      namespace="AlfaCode" 
+      constructor="CountryPhoneFormatter" 
+      display-name-key="PhoneWithCountryPicker" 
+      description-key="Country Phone Formatter"
+      version="4.1.0">
+
+    <!-- Country field (bound or unbound) -->
+    <property 
+        name="country" 
+        of-type="SingleLine.Text" 
+        display-name-key="country" 
+        description-key="country code for phone formatting"
+        usage="bound" 
+        required="false" />
+
+    <!-- Phone field (output only) -->
+    <property 
+        name="phone" 
+        of-type="SingleLine.Text" 
+        display-name-key="phone" 
+        description-key="formatted phone number"
+        usage="bound" 
+        required="true" />
+
+    <!-- Optional: Allow user to select country from dropdown -->
+    <type-group name="countrytypes">
+      <type>SingleLine.Text</type>
+      <type>OptionSet</type>
+      <type>Lookup.Simple</type>
+    </type-group>
+
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+
+    <feature-usage>
+      <uses-feature name="HTMLControls" required="true" />
+    </feature-usage>
+
+  </control>
+</manifest>
